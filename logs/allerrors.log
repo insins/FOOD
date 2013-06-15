@@ -1,0 +1,2 @@
+[14-Jun-2013 20:24:08 UTC] PHP Warning:  require_once(/Applications/MAMP/htdocs/devine/20122013/MAIV/FOOD/controller/CampaginController.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/devine/20122013/MAIV/FOOD/index.php on line 17
+[14-Jun-2013 20:24:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/devine/20122013/MAIV/FOOD/controller/CampaginController.php' (include_path='.:/Applications/MAMP/bin/php/php5.4.3/lib/php') in /Applications/MAMP/htdocs/devine/20122013/MAIV/FOOD/index.php on line 17

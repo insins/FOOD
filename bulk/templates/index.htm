@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+    <title>MAIV - FOOD by Ines,Tycho &amp; Matthias</title>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<!-- html5 content -->
+<div id="wrapper">
+    <!-- wrapper -->
+    <section id="menu" class="menu-50s">
+        <!-- menu -->
+        <ul>
+            {foreach from=$menu item=menuitem}
+                {if $page == $menuitem.page_id}
+                <li class="active">{$menuitem.link_text}</li>
+                {else}
+                <li><a href="index.php?page={$menuitem.page_id}">{$menuitem.link_text}</a></li>
+                {/if}
+            {/foreach}
+        </ul>
+        <!-- /menu -->
+    </section>
+    <section id="content-wrapper">
+        <!-- content-wrapper -->
+        <section id="content">
+            <!-- content -->
+            {$content}
+            <!-- /content -->
+        </section>
+        <!-- /content-wrapper -->
+    </section>
+    <!-- /wrapper -->
+</div>
+<!-- /html5 content -->
+
+<!-- javascript files -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="assets/js/Application.js"></script>
+<!-- /javascript files -->
+
+</body>
+</html>
